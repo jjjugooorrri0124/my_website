@@ -106,11 +106,10 @@ font-family: "Century Gothic";
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", Helvetica, sans-serif;
+font-family: "Century Gothic";
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
-font-family: "Century Gothic";
 	}
 
 	a {
@@ -326,7 +325,7 @@ font-family: "Century Gothic";
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #ffffff;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -335,7 +334,7 @@ font-family: "Century Gothic";
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #ffffff;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -355,7 +354,7 @@ font-family: "Century Gothic";
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #ffffff;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -364,7 +363,7 @@ font-family: "Century Gothic";
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #ffffff;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -631,7 +630,7 @@ font-family: "Century Gothic";
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #1c1d26;
+			background: #ffffff;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2330,7 +2329,7 @@ font-family: "Century Gothic";
 			}
 
 		.icon.major {
-			background: #272833;
+			background: #ffffff;
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -2363,7 +2362,7 @@ font-family: "Century Gothic";
 				}
 
 				.icon.major.alt:before {
-					color: #272833 !important;
+					color: #ffffff !important;
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
 
@@ -2813,119 +2812,6 @@ table.core-tech-table th {
   text-align: left;
 }
 
-/* Button */
-
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		background-color: transparent;
-		border-radius: 4px;
-		border: 0;
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
-		color: #ffffff !important;
-		cursor: pointer;
-		display: inline-block;
-		font-weight: 300;
-		height: 3em;
-		line-height: 3em;
-		padding: 0 2.25em;
-		text-align: center;
-		text-decoration: none;
-		white-space: nowrap;
-	}
-
-		input[type="submit"]:hover, input[type="submit"]:active,
-		input[type="reset"]:hover,
-		input[type="reset"]:active,
-		input[type="button"]:hover,
-		input[type="button"]:active,
-		.button:hover,
-		.button:active {
-			box-shadow: inset 0 0 0 1px #4c65e4;
-			color: #4c65e4 !important;
-		}
-
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		input[type="button"]:active,
-		.button:active {
-			background-color: rgba(228, 76, 101, 0.15);
-		}
-
-		input[type="submit"].icon:before,
-		input[type="reset"].icon:before,
-		input[type="button"].icon:before,
-		.button.icon:before {
-			margin-right: 0.5em;
-		}
-
-		input[type="submit"].fit,
-		input[type="reset"].fit,
-		input[type="button"].fit,
-		.button.fit {
-			width: 100%;
-		}
-
-		input[type="submit"].small,
-		input[type="reset"].small,
-		input[type="button"].small,
-		.button.small {
-			font-size: 0.8em;
-		}
-
-		input[type="submit"].large,
-		input[type="reset"].large,
-		input[type="button"].large,
-		.button.large {
-			font-size: 1.35em;
-		}
-
-		input[type="submit"].primary,
-		input[type="reset"].primary,
-		input[type="button"].primary,
-		.button.primary {
-			background-color: #4c65e4;
-			box-shadow: none;
-			color: #ffffff !important;
-		}
-
-			input[type="submit"].primary:hover,
-			input[type="reset"].primary:hover,
-			input[type="button"].primary:hover,
-			.button.primary:hover {
-				background-color: #e76278;
-			}
-
-			input[type="submit"].primary:active,
-			input[type="reset"].primary:active,
-			input[type="button"].primary:active,
-			.button.primary:active {
-				background-color: #e13652;
-			}
-
-		input[type="submit"].disabled, input[type="submit"]:disabled,
-		input[type="reset"].disabled,
-		input[type="reset"]:disabled,
-		input[type="button"].disabled,
-		input[type="button"]:disabled,
-		.button.disabled,
-		.button:disabled {
-			background-color: rgba(255, 255, 255, 0.3) !important;
-			box-shadow: none !important;
-			color: #ffffff !important;
-			cursor: default;
-			opacity: 0.25;
-		}
-
 /* Goto Next */
 
 	.goto-next {
@@ -3365,7 +3251,7 @@ table.core-tech-table th {
 				-webkit-transform: rotate(45deg);
 				-ms-transform: rotate(45deg);
 				transform: rotate(45deg);
-				background: #272833;
+				background: #ffffff;
 				content: '';
 				display: block;
 				height: 1em;
@@ -3386,7 +3272,7 @@ table.core-tech-table th {
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
+		background-color: black;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3929,7 +3815,7 @@ table.core-tech-table th {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #272833;
+				background: #000000;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
