@@ -83,11 +83,36 @@
 
 
 <!-- Three -->
-<span class="video fit main bottom">
-    <iframe src="https://drive.google.com/file/d/1EIxp-RVXUj8RIio_Dl8FPWz4EVtV-KTj/preview" width="1500" height="800"  allow="autoplay" frameborder="0"></iframe>
-</span>
-
+<section>
+    <div class="responsive-iframe-container">
+        <iframe src="https://drive.google.com/file/d/1EIxp-RVXUj8RIio_Dl8FPWz4EVtV-KTj/preview" 
+                allow="autoplay" 
+                frameborder="0">
+        </iframe>
+    </div>
 </section>
+
+<style>
+    /* 반응형 iframe을 위한 컨테이너 */
+    .responsive-iframe-container {
+        position: relative;
+        width: 100%; /* 부모 크기에 맞게 너비 설정 */
+        padding-bottom: 56.25%; /* 16:9 비율 유지 (높이 = 56.25% 너비) */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%; /* 최대 너비를 100%로 설정 */
+    }
+
+    /* iframe 자체 스타일 */
+    .responsive-iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%; /* 부모 크기에 맞게 너비를 설정 */
+        height: 100%; /* 부모 크기에 맞게 높이를 설정 */
+    }
+</style>
+
 
 				<section id="five" class="row">
 					<div class="container">
