@@ -26,23 +26,6 @@
     }
   </style>
 
-<script>
-  function changeLanguage(lang) {
-    // 현재 페이지의 URL을 가져옵니다.
-    const currentUrl = window.location.href;
-    // 언어 코드에 따라 리디렉션할 URL을 설정합니다.
-    let newUrl = currentUrl;
-
-    if (lang === 'en') {
-      newUrl = currentUrl.replace('/ko/', '/en/');
-    } else if (lang === 'ko') {
-      newUrl = currentUrl.replace('/en/', '/ko/');
-    }
-
-    // 새로운 URL로 이동합니다.
-    window.location.href = newUrl;
-  }
-</script>
 
 	</head>
 	<body class="is-preload landing">
