@@ -679,6 +679,8 @@ font-family: "Century Gothic";
   cursor: pointer;
   padding: 10px;
   font-size: 16px;
+  color : white;
+	
 }
 
 .language-switcher button:hover {
