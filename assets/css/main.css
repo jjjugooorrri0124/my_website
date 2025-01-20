@@ -667,6 +667,26 @@ font-family: "Century Gothic";
 
 	}
 
+/*언어 변경*/
+.language-switcher {
+  display: inline-block;
+  margin-left: auto;
+}
+
+.language-switcher button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.language-switcher button:hover {
+  text-decoration: underline;
+}
+
+
+
 /* Container */
 
 	.container {
